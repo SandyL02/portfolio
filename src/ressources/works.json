@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "title": "Front-end du site Booki",
+        "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Réaliser le front-end de Booki, un site de locations de vacance. Prendre en main HTML et CSS",
+        "techs": "HTML CSS",
+        "link" : "https://sandyl02.github.io/Booki/index.html",
+        "issues": "Avant de faire cette formation, il était requis d'avoir au moins suivi la formation HTML et la formation CSS sur le site OpenClassrooms, donc je n'étais pas dépaysée et n'ai pas rencontré de problèmes particuliers."
+    },
+    {
+        "id": "2",
+        "title": "Rendre dynamique le site d'une architecte à l'aide de JavaScript",
+        "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Rendre dynamique le site d'une photographe à l'aide de JavaScript, créer un formulaire de connexion/déconnexion, ajouter des projets, etc",
+        "techs": "HTML CSS JavaScript",
+        "link" : "https://github.com/SandyL02/Sophie-Bluel",
+        "issues": "J'avais déjà suivi la formation JavaScript avant la formation, néanmoins JavaScript est un langage beaucoup plus complexe que HTML et CSS donc j'ai demandé énormément de conseils à mon mentor."
+    },
+    {
+        "id": "3",
+        "title": "Front-end du site Kasa",
+        "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Créez le front d'une application web de location immobilière, prendre en main la gestion des composants, etc ",
+        "techs": "React HTML CSS",
+        "link" : "https://github.com/SandyL02/kasa",
+        "issues": ""
+    },
+    {
+        "id": "4",
+        "title": "Back-end de Mon Vieux Grimoire",
+        "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Réaliser le back d'un site de notations de livres à l'aide de React",
+        "techs": "React Node",
+        "link" : "https://github.com/SandyL02/P7OC",
+        "issues": ""
+    }
+]
