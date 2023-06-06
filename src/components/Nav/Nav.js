@@ -5,9 +5,9 @@ export default function Nav() {
         <nav>
             <h1>Sandy Lenormand</h1>
             <ul>
-                <li>Présentation</li>
-                <li>Projets</li>
-                <li>Contact</li>
+                <li><a href="#intro">Présentation</a></li>
+                <li><a href="#works">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     )

@@ -1,8 +1,8 @@
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Introduction from "./components/Introduction";
-import Works from "./components/Works";
-import Contact from "./components/Contact";
+import Nav from "./components/Nav/Nav.js";
+import Footer from "./components/Footer/Footer.js";
+import Introduction from "./components/Introduction/Introduction.js";
+import Works from "./components/Works/Works.js";
+import Contact from "./components/Contact/Contact.js";
 
 import './App.css';
 

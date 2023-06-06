@@ -1,3 +1,11 @@
+@import './components/Introduction/introduction.css';
+@import './components/Contact/contact.css';
+@import './components/Footer/footer.css';
+@import './components/Modal/modal.css';
+@import './components/Nav/nav.css';
+@import './components/Work/work.css';
+@import './components/Works/works.css';
+
 .App {
   text-align: center;
 }
