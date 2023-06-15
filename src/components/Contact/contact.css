@@ -1,0 +1,9 @@
+.contact {
+    position: relative;
+    top:80px;
+}
+
+#contact {
+    position: relative;
+    top:-100px;
+}

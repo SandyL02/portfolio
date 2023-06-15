@@ -1,3 +1,52 @@
 img {
-    width: 20vw;
+    width: 15vw;
 }
+
+.intro {
+    position: relative;
+    top:80px;
+}
+
+#intro {
+    position: relative;
+    top:-100px;
+}
+
+.hello{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: #FDEFF5 ;
+}
+
+strong {
+    font-size: 2.7vw;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    color: #A6487F
+}
+
+.btn {
+
+    background-color: #A6487F;
+    color: #FDEFF5;
+    padding: 0.625rem 1.375rem;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 50px;
+    margin-top: 0.7em;
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    margin: 0.7em auto;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }

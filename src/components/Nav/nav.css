@@ -1,0 +1,39 @@
+ul {
+list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 2%;
+}
+
+nav li {
+    position: relative;
+    top:10px;
+    right: 25%;
+}
+
+nav {
+ position: fixed;
+ display: flex;
+ justify-content: space-between;
+ background-color: #A6487F;
+ color: #FDEFF5;
+ width: 100%;
+ z-index: 1;
+ top: 0;
+ padding: 10px;
+}
+
+nav a {
+    text-shadow: 2px 2px 8px;
+}
+
+nav a:visited {
+    color: white;
+    text-shadow: 2px 2px 8px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}

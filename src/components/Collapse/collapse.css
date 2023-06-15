@@ -1,0 +1,32 @@
+.collapse-title {
+    background-color: #A6487F;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    padding: 0 3%;
+    height: 2.6em;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+
+
+.collapse-arrow{
+    width:25px;
+}
+
+.collapse-text {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FDEFF5;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+

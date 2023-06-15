@@ -1,17 +1,17 @@
 import React from 'react';
-import Work from "../Work/Work.js";
+import Collapse from '../Collapse/Collapse.js';
 import data from "../../ressources/works.json";
 
+
 export default function Works() {
-    return (
-        <section>
-            <h2 id="works">Mes projets</h2>
-            {data.map(item => ( 
-        <Work
-          key={item.id}
-          item={item}
-        />
+  return (
+    
+    <section className="works">
+      <div id="works"></div>
+      <h2>Mes projets</h2>
+      {data.map(item => (
+        <Collapse key={item.id} data={item} />
       ))}
-        </section>
-    )
+    </section>
+  );
 }
