@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3% auto 30% auto;
+    margin: 3% auto 25% auto;
     padding: 0 3%;
     height: 2.6em;
     font-size: 18px;
@@ -60,7 +60,6 @@
 
 .background img {
     width: 100%;
-   
     object-fit: cover;
    
 }
