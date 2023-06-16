@@ -25,7 +25,7 @@ const data = [
   {
     "id": "3",
     "title": "Front-end du site Kasa",
-    "background": "https://raw.githubusercontent.com/SandyL02/portfolio/master/src/images/background_kasa.png",
+    "background": "https://raw.githubusercontent.com/SandyL02/portfolio/master/src/images/background_kasa2.png",
     "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Créez le front d'une application web de location immobilière, prendre en main la gestion des composants, etc. ",
     "techs": ["React", "HTML", "CSS"],
     "website": "mon code",
