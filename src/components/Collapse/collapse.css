@@ -1,19 +1,26 @@
+/* .collapse {
+    display: flex;
+    flex-wrap: wrap;
+   
+} */
+
 .collapse-title {
     background-color: #A6487F;
     color: white;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
+    margin: 3% auto 30% auto;
     padding: 0 3%;
     height: 2.6em;
     font-size: 18px;
     font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 85%;
+    width: 40%;
+    position: relative;
+    
 }
+
 
 
 .collapse-arrow{
@@ -21,7 +28,7 @@
 }
 
 .collapse-text {
-    width: 85%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FDEFF5;
@@ -37,10 +44,25 @@
     border: none;
     border-radius: 50px;
     margin-top: 0.7em;
-    
     width: fit-content;
-    
-    margin: 0.7em auto;
+    margin: 0.7em 0.27em ;
+}
+
+
+.background {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 0.5px solid #A6487F;
+    border-radius: 0 0 5px 5px;
+  
+}
+
+.background img {
+    width: 100%;
+   
+    object-fit: cover;
+   
 }
 
 

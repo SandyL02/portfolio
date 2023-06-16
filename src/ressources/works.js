@@ -5,7 +5,7 @@ const data = [
   {
     "id": "1",
     "title": "Front-end du site Booki",
-    "background": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "background": "https://raw.githubusercontent.com/SandyL02/portfolio/master/src/images/background_booki.png",
     "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Réaliser le front-end de Booki, un site de locations de vacance. Prendre en main HTML et CSS",
     "techs": ["HTML", "CSS"],
     "website": "mon site",
@@ -15,7 +15,7 @@ const data = [
   {
     "id": "2",
     "title": "Rendre dynamique le site d'une architecte à l'aide de JavaScript",
-    "background": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "background": "https://raw.githubusercontent.com/SandyL02/portfolio/master/src/images/background_sophiebluel.png",
     "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Rendre dynamique le site d'une photographe à l'aide de JavaScript, créer un formulaire de connexion/déconnexion, ajouter des projets, etc.",
     "techs": ["HTML", "CSS", "Javascript"],
     "website": "mon code",
@@ -25,7 +25,7 @@ const data = [
   {
     "id": "3",
     "title": "Front-end du site Kasa",
-    "background": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "background": "https://raw.githubusercontent.com/SandyL02/portfolio/master/src/images/background_kasa.png",
     "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Créez le front d'une application web de location immobilière, prendre en main la gestion des composants, etc. ",
     "techs": ["React", "HTML", "CSS"],
     "website": "mon code",
@@ -35,7 +35,7 @@ const data = [
   {
     "id": "4",
     "title": "Back-end de Mon Vieux Grimoire",
-    "background": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "background": "https://raw.githubusercontent.com/SandyL02/portfolio/master/src/images/background_monvieuxgrimoire.png",
     "tasks": "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeuse web. Réaliser le back d'un site de notations de livres à l'aide de React.",
     "techs": ["React", "NodeJS"],
     "website": "mon code",
