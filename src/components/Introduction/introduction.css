@@ -50,3 +50,14 @@ h2 {
     height: 250px;
     border-radius: 50%;
   }
+
+.github, .linkedin {
+    width:45px;
+}
+
+.socials {
+    text-align: center;
+    padding-left: 0;
+}
+
+
