@@ -10,10 +10,10 @@ export default function Collapse({ data }) {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-  console.log(data.background);
+ 
   return (
     <>
-      <div>
+      <div className="collapse">
         <div className="collapse-title" onClick={toggle}>
           <h3>{data.title}</h3>
           <img
@@ -27,10 +27,10 @@ export default function Collapse({ data }) {
         </div>
         {isOpen && (
           <div className="collapse-text">
-            <p>Mission : {data.tasks}</p>
-            <p>Problématiques rencontrées : {data.issues}</p>
+            <p><span class="color-change">Mission</span> : {data.tasks}</p>
+            <p><span class="color-change">Problématiques rencontrées</span> : {data.issues}</p>
             <ul className="techs">
-              Technologies utilisées :{" "}
+            <span class="color-change">Technologies utilisées</span> :{" "}
               {data.techs.map((tech, index) => (
                 <li className="tech" key={index}>
                   {tech}
@@ -40,9 +40,9 @@ export default function Collapse({ data }) {
 
             <p>
               Lien vers{" "}
-              <a href={data.link} target="blank">
+              <span class="color-change"><a href={data.link} target="blank">
                 {data.website}
-              </a>
+              </a></span>
               .
             </p>
           </div>

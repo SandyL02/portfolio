@@ -14,9 +14,13 @@ a {
   text-decoration: none;
 }
 
-p,h3{
+h3{
   padding-left: 3vw;
   padding-right: 3vw;
+}
+
+p {
+  text-align: justify;
 }
 
 .App {

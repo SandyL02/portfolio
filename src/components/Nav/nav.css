@@ -37,3 +37,12 @@ nav a:visited {
 nav a:hover {
     font-weight: bold;
 }
+
+@media (max-width: 550px) {
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+}

@@ -7,3 +7,13 @@
     position: relative;
     top:-100px;
 }
+
+.contact p {
+padding-left: 10%;
+ padding-right: 10%;
+}
+
+a.email-link,
+a.email-link:visited {
+  color: #A6487F;
+}

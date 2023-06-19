@@ -4,12 +4,11 @@ import data from "../../ressources/works.js";
 
 export default function Works() {
 
-console.log(data)
   return (
     <section className="works">
       <div id="works"></div>
       <h2>Mes projets</h2>
-      < div className="collapse">
+      < div className="collapse-wrapper">
       {data.map((item, ind) => {
         return(
         < Collapse key={ind} data={item}/>
