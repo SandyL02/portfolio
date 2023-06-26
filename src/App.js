@@ -4,17 +4,16 @@ import Introduction from "./components/Introduction/Introduction.js";
 import Works from "./components/Works/Works.js";
 import Contact from "./components/Contact/Contact.js";
 
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <>
-    <Nav />
-    <Introduction />
-    <Works />
-    <Contact />
-    <Footer />
+      <Nav />
+      <Introduction />
+      <Works />
+      <Contact />
+      <Footer />
     </>
   );
 }

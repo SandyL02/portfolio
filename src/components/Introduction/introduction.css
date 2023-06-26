@@ -4,19 +4,19 @@ img {
 
 .intro {
     position: relative;
-    top:80px;
+    top: 80px;
 }
 
 #intro {
     position: relative;
-    top:-100px;
+    top: -100px;
 }
 
-.hello{
+.hello {
     display: flex;
     justify-content: space-around;
     padding: 80px;
-    background-color: #FDEFF5 ;
+    background-color: #FDEFF5;
 }
 
 strong {
@@ -49,10 +49,11 @@ h2 {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-  }
+}
 
-.github, .linkedin {
-    width:45px;
+.github,
+.linkedin {
+    width: 45px;
 }
 
 .socials {
@@ -61,42 +62,38 @@ h2 {
 }
 
 .about {
- padding-left: 10%;
- padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @media (max-width: 1000px) {
-.hello {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 700px) {
- strong {
-    font-size: 25px;}
-
     .hello {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
- }
-
-
- @media (max-width: 470px) {
-    strong {
-       font-size: 18px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
-    .hello {
-        padding-left: 20px;
-        padding-right: 20px;
+    @media (max-width: 700px) {
+        strong {
+            font-size: 25px;
+        }
+
+        .hello {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
     }
-   
-   }
+
+
+    @media (max-width: 470px) {
+        strong {
+            font-size: 18px;
+        }
+
+        .hello {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    }
 }
-
-
-
-
-

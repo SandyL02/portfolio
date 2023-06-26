@@ -46,7 +46,7 @@
 .tech {
     background-color: #A6487F;
     color: #FDEFF5;
-    padding:1% 1.5%;
+    padding: 1% 1.5%;
     border: none;
     border-radius: 50px;
     margin: 0.7em 0.27em;
@@ -67,10 +67,11 @@
 }
 
 .color-change {
-    color:#A6487F
+    color: #A6487F
 }
 
-a, a:visited {
+a,
+a:visited {
     color: #A6487F;
 }
 
@@ -87,28 +88,23 @@ a:hover {
     .collapse {
         width: 90%;
         min-height: 30vw;
-        padding:5% 5% 2% 5%;
+        padding: 5% 5% 2% 5%;
     }
 
 
     @media (max-width: 520px) {
-.collapse-title h3 {
-    font-size:15px
-}
+        .collapse-title h3 {
+            font-size: 15px
+        }
 
-.tech {
-    margin:auto 0.25em;
-}
+        .tech {
+            margin: auto 0.25em;
+        }
 
-.collapse-text {
-    font-size: 14px;
-}
+        .collapse-text {
+            font-size: 14px;
+        }
 
 
     }
 }
-
-
-
-
-
